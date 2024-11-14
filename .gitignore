@@ -21,4 +21,4 @@ env/
 Thumbs.db
 
 # Results files
-scan_results.txt
+**/scan_results*

@@ -5,6 +5,7 @@ import platform
 import dns.resolver  # To add DNS-based hostname resolution
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import json
+from datetime import datetime
 
 
 def ping_ip(ip):
@@ -82,7 +83,7 @@ def scan_network(network, ports=None):
     return active_devices
 
 
-def save_results(devices, filename="scan_results.txt"):
+def save_results(devices, filename=f"scan_results_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.json"):
     """
     Saves the scan results to a file in a readable JSON format.
     """
