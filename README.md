@@ -18,7 +18,7 @@ A Python-based network scanner that checks the availability of devices on a spec
 
 1. Clone this repository:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/Mahery19/Network_Scanner.git
     cd network-scanner
     ```
 
