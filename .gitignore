@@ -20,5 +20,5 @@ env/
 .DS_Store
 Thumbs.db
 
-# Export Results
+# Results files
 scan_results.txt
