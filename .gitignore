@@ -19,3 +19,6 @@ env/
 # System files
 .DS_Store
 Thumbs.db
+
+# Export Results
+scan_results.txt
